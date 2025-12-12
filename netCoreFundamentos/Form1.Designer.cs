@@ -28,12 +28,57 @@
         /// </summary>
         private void InitializeComponent()
         {
-            components = new System.ComponentModel.Container();
+            btnPulsar = new Button();
+            label1 = new Label();
+            textBox1 = new TextBox();
+            SuspendLayout();
+            // 
+            // btnPulsar
+            // 
+            btnPulsar.Location = new Point(111, 219);
+            btnPulsar.Name = "btnPulsar";
+            btnPulsar.Size = new Size(91, 23);
+            btnPulsar.TabIndex = 0;
+            btnPulsar.Text = "Comprobar";
+            btnPulsar.UseVisualStyleBackColor = true;
+            btnPulsar.Click += btnPulsar_Click;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(102, 85);
+            label1.Name = "label1";
+            label1.Size = new Size(123, 15);
+            label1.TabIndex = 1;
+            label1.Text = "Introduzca su nombre";
+            // 
+            // textBox1
+            // 
+            textBox1.Location = new Point(111, 115);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(230, 23);
+            textBox1.TabIndex = 2;
+          
+            // 
+            // Form1
+            // 
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(textBox1);
+            Controls.Add(label1);
+            Controls.Add(btnPulsar);
+            Name = "Form1";
             Text = "Form1";
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
+
+     
+        private Label label1;
+        private TextBox textBox1;
+        private Button btnPulsar;
     }
 }
