@@ -36,6 +36,9 @@ namespace netCoreFundamentos
             this.resultado.Text = suma.ToString();
         }
 
-       
+        private void Form2_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

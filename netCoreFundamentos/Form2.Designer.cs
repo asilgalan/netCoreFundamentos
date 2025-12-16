@@ -87,7 +87,6 @@
             resultado.Name = "resultado";
             resultado.Size = new Size(0, 15);
             resultado.TabIndex = 5;
-            resultado.Text = "";
             // 
             // Form2
             // 
@@ -102,7 +101,7 @@
             Controls.Add(btnSumar);
             Name = "Form2";
             Text = "Form2";
-           
+            Load += Form2_Load;
             ResumeLayout(false);
             PerformLayout();
         }

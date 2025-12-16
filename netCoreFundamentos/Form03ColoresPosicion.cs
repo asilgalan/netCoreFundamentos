@@ -37,5 +37,10 @@ namespace netCoreFundamentos
         {
 
         }
+
+        private void Form03ColoresPosicion_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

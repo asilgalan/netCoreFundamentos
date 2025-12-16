@@ -196,6 +196,7 @@
             Controls.Add(textBox1);
             Name = "Form03ColoresPosicion";
             Text = "Form03ColoresPosicion";
+            Load += Form03ColoresPosicion_Load;
             ResumeLayout(false);
             PerformLayout();
         }
