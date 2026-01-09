@@ -7,5 +7,54 @@
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
-
+<ItemGroup Label="Simplificar el uso de la consola">
+  <Using Include="System.Console" Static="true" />
+</ItemGroup>
+<ItemGroup>
+  <Compile Update="Form10Lista.cs">
+    <SubType>Form</SubType>
+  </Compile>
+  <Compile Update="Form11multiLIST.cs">
+    <SubType>Form</SubType>
+  </Compile>
+  <Compile Update="Form12CollecionNumero.cs">
+    <SubType>Form</SubType>
+  </Compile>
+  <Compile Update="Form13TiendaProducto.cs">
+    <SubType>Form</SubType>
+  </Compile>
+  <Compile Update="Form14Metodos.cs">
+    <SubType>Form</SubType>
+  </Compile>
+  <Compile Update="Form15ArrayList.cs">
+    <SubType>Form</SubType>
+  </Compile>
+  <Compile Update="Form16ListDelegado.cs">
+    <SubType>Form</SubType>
+  </Compile>
+  <Compile Update="Form17SumarBotones.cs">
+    <SubType>Form</SubType>
+  </Compile>
+  <Compile Update="Form18SumarCheckBox.cs">
+    <SubType>Form</SubType>
+  </Compile>
+  <Compile Update="Form19TablaMulti.cs">
+    <SubType>Form</SubType>
+  </Compile>
+  <Compile Update="Form20TestClases.cs">
+    <SubType>Form</SubType>
+  </Compile>
+  <Compile Update="Form21CajeroBancario.cs">
+    <SubType>Form</SubType>
+  </Compile>
+  <Compile Update="Calculadora.cs">
+    <SubType>Form</SubType>
+  </Compile>
+  <Compile Update="form22File.cs">
+    <SubType>Form</SubType>
+  </Compile>
+</ItemGroup>
+<ItemGroup>
+  <ProjectReference Include="..\ProyectoClases\ProyectoClases.csproj" />
+</ItemGroup>
 </Project>

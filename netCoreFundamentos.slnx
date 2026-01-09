@@ -1,3 +1,5 @@
 <Solution>
+  <Project Path="CajeroBancarios/CajeroBancarios.csproj" />
   <Project Path="netCoreFundamentos/netCoreFundamentos.csproj" />
+  <Project Path="ProyectoClases/ProyectoClases.csproj" />
 </Solution>
